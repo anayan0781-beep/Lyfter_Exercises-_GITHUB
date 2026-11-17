@@ -1,0 +1,5 @@
+print (200 + 50)
+print (580 - 80)
+print (40 / 2)
+print (90 * 2)
+print (3 * 5)
