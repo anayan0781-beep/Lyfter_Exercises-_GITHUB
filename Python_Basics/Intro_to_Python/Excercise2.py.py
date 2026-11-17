@@ -1,0 +1,5 @@
+print (" My name is Yan Suarez")
+print ("Im trying my first Python exercise")
+print ("I do not know how do it")
+print ("I am trying do my best")
+print (" I hope it is ok")
