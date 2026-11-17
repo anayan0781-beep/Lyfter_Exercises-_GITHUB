@@ -1,0 +1,24 @@
+LYFTER - Lógica de Programación
+Pseudocódigo Extra - Exercise2
+
+Convertir velocidad de km/h a m/s
+
+Enunciado:
+Pedir una velocidad en km/h y convertirla a metros por segundo.
+
+Pseudocódigo:
+Inicio
+    Definir velocidad_kmh, velocidad_ms Como Real
+
+    Escribir "Ingrese la velocidad en km/h:"
+    Leer velocidad_kmh
+
+    velocidad_ms <- velocidad_kmh * 1000 / 3600
+
+    Escribir "Velocidad en m/s: ", velocidad_ms
+Fin
+
+Ejemplos:
+73 km/h -> 20.28 m/s (aprox.)
+50 km/h -> 13.89 m/s (aprox.)
+120 km/h -> 33.33 m/s (aprox.)

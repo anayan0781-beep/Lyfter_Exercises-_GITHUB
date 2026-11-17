@@ -1,0 +1,43 @@
+LYFTER - Lógica de Programación
+Pseudocódigo Extra - Exercise3
+
+Porcentaje de mujeres y hombres
+
+Enunciado:
+Pedir el sexo de seis personas (1 = mujer, 2 = hombre) y calcular ambos porcentajes.
+
+Pseudocódigo:
+Inicio
+    Definir sexo, mujeres, hombres, i Como Entero
+    Definir porcentaje_mujeres, porcentaje_hombres Como Real
+
+    mujeres <- 0
+    hombres <- 0
+
+    Para i <- 1 Hasta 6 Hacer
+        Escribir "Persona ", i, ": ingrese 1 si es mujer o 2 si es hombre:"
+        Leer sexo
+
+        Mientras sexo <> 1 Y sexo <> 2 Hacer
+            Escribir "Valor inválido. Ingrese 1 o 2:"
+            Leer sexo
+        FinMientras
+
+        Si sexo = 1 Entonces
+            mujeres <- mujeres + 1
+        Sino
+            hombres <- hombres + 1
+        FinSi
+    FinPara
+
+    porcentaje_mujeres <- mujeres * 100 / 6
+    porcentaje_hombres <- hombres * 100 / 6
+
+    Escribir "Porcentaje de mujeres: ", porcentaje_mujeres, "%"
+    Escribir "Porcentaje de hombres: ", porcentaje_hombres, "%"
+Fin
+
+Ejemplos:
+1, 1, 1, 2, 2, 2 -> 50% y 50%
+1, 1, 2, 2, 2, 2 -> 33.33% y 66.67%
+1, 1, 1, 1, 1, 2 -> 83.33% y 16.67%
