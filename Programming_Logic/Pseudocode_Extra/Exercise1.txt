@@ -1,0 +1,31 @@
+LYFTER - Lógica de Programación
+Pseudocódigo Extra - Exercise1
+
+Ordenar dos números de menor a mayor
+
+Enunciado:
+Pedir dos números, guardarlos en primero y segundo y ordenarlos de menor a mayor.
+
+Pseudocódigo:
+Inicio
+    Definir primero, segundo, temporal Como Real
+
+    Escribir "Ingrese el primer número:"
+    Leer primero
+    Escribir "Ingrese el segundo número:"
+    Leer segundo
+
+    Si primero > segundo Entonces
+        temporal <- primero
+        primero <- segundo
+        segundo <- temporal
+    FinSi
+
+    Escribir "Primero: ", primero
+    Escribir "Segundo: ", segundo
+Fin
+
+Ejemplos:
+Entrada: 56, 32 -> Salida: 32, 56
+Entrada: 24, 76 -> Salida: 24, 76
+Entrada: 45, 12 -> Salida: 12, 45
