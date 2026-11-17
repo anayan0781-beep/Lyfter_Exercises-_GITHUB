@@ -1,0 +1,19 @@
+Ejercicios de Pseudocódigo
+Lógica de Programación
+
+Cree un algoritmo que le pida un numero al usuario, y realice una suma de cada número del 1 hasta ese número ingresado. Luego muestre el resultado de la suma.
+5 → 15 (1 + 2 + 3 + 4 + 5)
+3 → 6 (1 + 2 + 3)
+12 → 78 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+Inicio
+    Definir "Ingrese un número:"
+    Definir numero
+    suma <- 0
+    Para i <- 1 Hasta numero Hacer
+        suma <- suma + i
+    Fin
+    Definir "La suma es: ", suma
+Fin
+Si ingreso 5, el resultado es 15 (1 + 2 + 3 + 4 + 5).
+Si ingreso 3, el resultado es 6 (1 + 2 + 3).
+Si ingreso 12, el resultado es 78 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)

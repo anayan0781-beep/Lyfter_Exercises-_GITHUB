@@ -1,0 +1,25 @@
+Ejercicios de Pseudocódigo
+Lógica de Programación
+
+Cree un pseudocódigo que le pida un tiempo en segundos al usuario y calcule si es menor o mayor a 10 minutos. Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “Mayor”. Si es exactamente igual, muestre “Igual”.
+Inicio
+
+Definir "Ingrese el tiempo en segundos:"
+Definir segundos
+
+Si segundos < 600 Entonces
+faltan <- 600 - segundos
+Definir "Faltan ", faltan, " segundos para llegar a 10 minutos."
+Sino
+Si segundos > 600 Entonces
+Definir "Mayor"
+Sino
+Definir "Igual"
+FinSi
+FinSi
+
+Fin
+10 minutos = 600 segundos.
+Si el tiempo es menor a 600, calcula cuántos segundos faltan.
+Si es mayor a 600, muestra "Mayor".
+Si es exactamente 600, muestra "Igual"

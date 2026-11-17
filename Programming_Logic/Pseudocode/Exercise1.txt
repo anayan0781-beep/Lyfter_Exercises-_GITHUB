@@ -1,0 +1,20 @@
+Ejercicios de Pseudocódigo
+Lógica de Programación
+
+Cree un pseudocódigo que le pida un precio de producto al usuario, calcule su descuento y muestre el precio final tomando en cuenta que:
+Si el precio es menor a 100, el descuento es del 2%.
+Si el precio es mayor o igual a 100, el descuento es del 10%.
+Inicio
+    Definir "precio del producto"
+    Definir "precio"
+    Definir "descuento"
+    Si precio < 100 entonces
+	a: descuento < -precio * 0.02
+     Sino 
+	a: descuento < - precio *0.10
+     Precio final < -precio - descuento
+     Definir "descuento", descuento
+    Definir "precio final", precio final
+Fin
+Si ingreso 80, el descuento será 1.6 (2%) y el precio final será 78.4.
+Si ingreso 150, el descuento será 15 (10%) y el precio final será 135.
