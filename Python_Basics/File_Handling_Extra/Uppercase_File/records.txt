@@ -1,0 +1,5 @@
+First record: Python is fun!
+Second record: I am learning file handling.
+Este es un nuevo registro
+Este es un nuevo registro
+This is a new record
