@@ -1,0 +1,2 @@
+Python is fun but it is handful.
+I am learning file handling and it has been hard
